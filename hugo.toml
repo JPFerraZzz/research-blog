@@ -1,0 +1,12 @@
+baseURL = 'https://jaoresearch.duckdns.org/'
+languageCode = 'pt-pt'
+title = 'João Ferraz - Research'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'dark'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  mainSections = ["posts"]
