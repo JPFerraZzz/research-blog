@@ -7,12 +7,13 @@ tags: ["pentest", "api-security", "web"]
 
 ## Contexto
 
-No âmbito de um projeto de desenvolvimento web para um cliente, testei informalmente
-a segurança de um chatbot de atendimento integrado no site, construído sobre um
-backend ASP.NET com um modelo de linguagem por trás (Azure AI / Dify, visível no
-próprio código do widget). O objetivo não era um pentest formal contratado, mas uma
-verificação básica de superfície de ataque antes de recomendar o produto como seguro
-ao cliente.
+Um amigo geria as redes sociais de uma pequena empresa que tinha lançado um
+chatbot de atendimento no site, construído sobre um backend ASP.NET com um
+modelo de linguagem por trás (Azure AI / Dify, visível no próprio código do
+widget). Por curiosidade e para praticar, pedi-lhe autorização informal para
+testar a segurança básica do chatbot e da API que o serve, fora de qualquer
+contexto profissional ou contratual. Os achados abaixo foram depois reportados
+informalmente à empresa através dele.
 
 ## Metodologia
 
